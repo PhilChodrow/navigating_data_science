@@ -2,7 +2,7 @@
 title: "Advanced Topics in Data Science"
 subtitle: "*15.S41*"
 author: "Phil Chodrow"
-date: "January 18th, 2019"
+date: "January 16th, 2020"
 output: 
   revealjs::revealjs_presentation:
     slide_level: 2
@@ -112,7 +112,7 @@ knitr::include_graphics('https://ismayc.github.io/moderndiver-book/images/tidy1.
 
 ## Impress Jean-Luc Picard
 
-```{r, out.height = 500, echo = FALSE}
+```{r, out.height = 500, out.width = 500, echo = FALSE}
 knitr::include_graphics('figs/not_impressed.jpg')
 ```
 
@@ -131,7 +131,7 @@ knitr::include_graphics('figs/not_impressed.jpg')
 > 5. Maybe a handshake too. 
 
 <div class = 'fragment'>
-```{r, out.height = 350,  echo = FALSE, fig.align='center'}
+```{r, out.height = 350, out.width = 500,  echo = FALSE, fig.align='center'}
 knitr::include_graphics('figs/handshake.jpg')
 ```
 </div>
@@ -374,6 +374,12 @@ knitr::include_graphics('figs/kmeans1.png')
 ```{r, echo = FALSE, out.height=500, out.width = 700}
 knitr::include_graphics('figs/not_bad.jpg')
 ```
+
+## Homework
+
+1. Open the file `my_dashboard.html`. There is a commentary box which you will fill in with your own analysis of our findings. 
+2. Open `my_dashboard.rmd`. Locate the block of text at the end of the file, and replace it with your analysis. 
+3. "Knit" the file using the button at the top of the RStudio script editor window. The result (after a few moments) is a new copy of `my_dashboard.html` containing your analysis. Submit this file. 
 
 
 ## The Cycle of Data Science
